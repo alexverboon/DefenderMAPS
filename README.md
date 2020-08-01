@@ -5,6 +5,19 @@
 
 DefenderMAPS provides functions to test Windows Defender MAPS connectivity
 
+## Prerequisites
+
+- Windows PowerShell 5.1 / PowerShell Core
+- Windows 10 with Microsoft Defender enabled
+
+## Getting Started
+
+To get started with the module, open your PowerShell terminal and install the module from the PSGallery by running this simple command:
+
+```powershell
+Install-Module DefenderMAPS -Scope CurrentUser
+```
+
 ## Test-MapsConnection
 
 Use Test-MapsConnection to verify that your client can  communicate with the Windows Defender Antivirus cloud service.
